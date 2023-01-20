@@ -516,7 +516,7 @@ show_user.blade.php , die Datei manuell anlegen!
 
     
 </html>
-/*@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
 	<div class="ui grid">
@@ -540,7 +540,8 @@ show_user.blade.php , die Datei manuell anlegen!
 		</div>
 	@endforeach
 	</div>
-@endsection	*/
+@endsection
+--}}
 
 ```
 
