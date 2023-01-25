@@ -49,8 +49,8 @@ Die Übung 20 MUSS VORHER ausgeführt worden sein!
 	
 	
 */
-use App\Interest; 
-use App\Article; 
+use App\Models\Interest; 
+use App\Models\Article; 
 
 // Artikel erstellen
 Route::get('article/create/{title}/{text}/{interest_id}/', function($title,$text,$interest_id){
